@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* ------------------ Background image and colours */
+body {
+  background: url(../images/dumbel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: #000;
+}
+
+/* ------------------ Logo -----*/
+
+
+/* ------------------ Navbar -- */
+.menu {
+  background-color: transparent;
+  font-size: 1.6em;
+  margin:30px auto;
+
+}
+.menu li a{
+  color: #f6f6f6 !important;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.5s ease-in-out;
+  padding: 5px 15px;
+  margin: 10px 10px;
+}
+.menu li a:hover {
+  color: #ff7700 !important;
+  transform: scale(1.1);
+
+}
+
+
+
+/* --------------------------- Colors ---*/
+
+.navi {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  line-height: 24px;
+  height: 80px;
+}
+
+.title-1 {
+  background-color: transparent;
+    margin-top: 100px !important;
+    margin-bottom: 200px !important;
+
+}
+
+.title-head {
+  background-color: rgba(0, 0, 0,0.5);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  color: #ff7700;
+  font-size: 4em;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+}
+
+.title-head  span{
+  color: #f6f6f6;
+}
+/* ------------------------------ Sign up modal ----*/
+.joinus-box {
+  margin-top: 250px;
+  background-color: rgba(0,0,0,0.7) !important;
+  color: #ff7700;
+  padding: 15px;
+}
+/* ----------------------------- Timming and price ---------*/
+.title-2  {
+
+}
+
+.para {
+  color: #ff7700;
+}
+
+/* ---------------------- Title Box ---*/
+.join-btn {
+  background-color: transparent;
+  transition: 0.5s ease-in-out;
+  border-color:  #ff7700;
+  color: #f6f6f6;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    border-color:  #ff7700 !important;
+    background-color: #ff7700;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.title-1 {
+  margin-top: 150px !important;
+}
+}
+/*---------------------------- Arrow animation ---*/
+.arrow {
+  height: 100vh;
+  position: absolute;
+  text-decoration: none;
+  top: 95%;
+  left: 50%;
+  color: #ff7700;
+  font-size: 1.8em;
+  animation: bounce 2s infinite;
+  transition: 0.3s all ease-in-out;
+}
+.arrow:hover {
+  color: #f6f6f6;
+  animation-play-state: paused;
+  transform: scale(1.1);
+
+}
+.word {
+  color: #f6f6f6;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
+.timing {
+  margin-top : 120px;
+}
+
+.timming-box {
+  background-color: rgba(245, 118, 0, 0.6) !important;
+}
+.membership {
+  border-left: 2px solid #ff7700;
+}
+.line {
+  height: 2px;
+  background-color: #ff7700;
+  border-radius: 25px;
+}
+/* ------------------- Refference W3school ---*/
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.title-3 {
+  height: 100vh;
+
+  background: url(../images/title3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+
+}
+
+.jumbo {
+  font-size: 1.6em;
+  position:relative;
+  border-radius: 15px;
+  left: -20%;
+  margin-top: 300px;
+  background-color: rgba(255, 12, 0, 0.5);
+  width: 40%;
+  height: 400px;
+  padding: 30px;
+  display: flex-flow-root;
+  justify-content: center;
+}
