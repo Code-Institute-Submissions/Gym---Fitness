@@ -32,7 +32,7 @@ html {
 }
 
 .menu {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   font-size: 1.6em;
   margin-top:30px;
   margin-bottom: 30px;
@@ -60,15 +60,15 @@ html {
 /**************************** home page first title **************/
 .title-1 {
     background: url(../images/dumbel.jpg) no-repeat center center;
-   webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display:flex;
-  justify-content: center;
-    height: 100vh;
-    /*margin-top: 60px !important;*/
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    height: 85vh;
     margin-bottom: 200px !important;
+    margin-top: 150px;
 
 }
 
@@ -81,7 +81,7 @@ html {
   background-color: rgba(0, 0, 0,0.5);
   border-radius: 10px;
   padding: 25px;
-  margin-top: 25px;
+  margin-top: 0px;
   margin-bottom: 25px;
   color: #ff7700;
   font-size: 4em;
@@ -100,23 +100,22 @@ html {
   padding: 15px;
 }
 
-/* ---------------------- Title Box start trail button---*/
+/* ---------------------- Title Box start trial button---*/
 .join-btn {
   background-color: #ff7700 ;
   transition: 0.5s ease-in-out;
-  border-color:  #ff7700;
   color: #f6f6f6;
   border-radius: 25px;
+  border:0;
 }
 
 .btn-warning:hover {
     color: #ff7700;
-    border-color:  #f6f6f6 !important;
     background-color: #f6f6f6;
 
 }
 
-/*---------------------------- Arrow animation Home page---*/
+/*---------------------------- Arrow Home page---*/
 .arrow {
   
   position: absolute;
@@ -132,6 +131,27 @@ html {
   color: #f6f6f6;
   animation-play-state: paused;
 }
+
+/* ------------------- Arrow animation Refference W3school ---*/
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
 /*************************** Logo ************/
 .logo a h3 {
     text-decoration: none !important;
@@ -184,25 +204,6 @@ html {
   background-color: #ff7700;
   border-radius: 25px;
 }
-/* ------------------- Arrow animation Refference W3school ---*/
-@keyframes bounce {
-	0%,
-	25%,
-	50%,
-	75%,
-	100% {
-		-webkit-transform: translateY(0);
-		        transform: translateY(0);
-	}
-	40% {
-		-webkit-transform: translateY(-20px);
-		        transform: translateY(-20px);
-	}
-	60% {
-		-webkit-transform: translateY(-12px);
-		        transform: translateY(-12px);
-	}
-}
 
 /**************************** About us page ****************/
 .title-3 {
@@ -230,7 +231,7 @@ html {
 .trainer-pic1 {
    
     width:80%;
-    height: 200px;
+    height: 300px;
     border: 2px solid #ff7700;
     border-radius: 5%;
     margin: 150px auto 0 auto;
@@ -240,7 +241,7 @@ html {
 
 .pic1 {
    
-     background: url(../images/trainer-1.jpg);
+     background: url(../images/trainer-1.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -252,7 +253,7 @@ html {
 }
 .trainer-pic2 {
     width:80%;
-    height: 200px;
+    height: 300px;
     border: 2px solid #ff7700;
     border-radius: 5%;
     margin: 150px auto 0 auto;
@@ -262,7 +263,7 @@ html {
 
 .pic2 {
    
-     background: url(../images/trainer-2.jpg);
+     background: url(../images/trainer-2.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -274,7 +275,7 @@ html {
 }
 .trainer-pic3 {
     width:80%;
-    height: 200px;
+    height: 300px;
     border: 2px solid #ff7700;
     border-radius: 5%;
     margin: 150px auto 0 auto;
@@ -284,7 +285,7 @@ html {
 
 .pic3 {
    
-     background: url(../images/trainer-3.jpg);
+     background: url(../images/trainer-3.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -470,16 +471,16 @@ footer{
         margin:0 auto 30px auto !important;     
     }
     .trainer-pic1 {
-        width: 60%;
+        width: 65%;
     }
     .trainer-pic2 {
-        width: 60%;
+        width: 65%;
     }
     .trainer-pic3 {
-        width: 60%;
+        width: 65%;
     }
     .trainer-box {
-        width: 70%;
+      /*  width: 70%;*/
         margin: 0 auto;
     }
 }
@@ -512,8 +513,49 @@ footer{
 @media only screen and (max-width: 600px) {
 
 .title-1 {
-  margin-top: 50px !important;
+  margin-top: 30px !important;
   margin-bottom: 100px !important;
   font-size: 10px;
+  height: 50vh;
 }
+.title-head {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.join-btn {
+    font-size: 130%;
+}
+    blockquote {
+        margin-bottom: 0;
+    }
+    .price-box {
+        margin-bottom: 25px;
+    }
+    .trainer-pic2 {
+        margin-top: 45px !important;
+    }
+    .trainer-pic3 {
+        margin-top: 45px !important;
+    }
+    .mem-pic {
+        margin: 0 auto;
+    }
+}
+
+.mem-pic {
+    margin:200px auto 0 auto;
+    width:80%;
+    height:250px;
+    
+    border-radius: 5px 5px 0 0;
+}
+
+.profile {
+    background: url(../images/profile.png) no-repeat center center;
+    width:100%;
+    height:100%;
+}
+
+.icon {
+    margin: 0 auto;
 }
