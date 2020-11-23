@@ -45,10 +45,11 @@ html {
 .menu li a{
   color: #f6f6f6 !important;
   
-  font-family: "Montserrat", sans-serif;
+ font-family: "Anton", sans-serif;
   transition: 0.5s ease-in-out;
   padding: 5px 15px;
   margin: 10px 10px;
+  letter-spacing: 2px;
   
 }
 .menu li a:hover {
@@ -58,8 +59,9 @@ html {
 }
 
 /**************************** home page first title **************/
+
 .title-1 {
-    background: url(../images/dumbel.jpg) no-repeat center center;
+    background: url(../images/banner.jpg) no-repeat center center;
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,7 +70,7 @@ html {
     justify-content: center;
     height: 85vh;
     margin-bottom: 200px !important;
-    margin-top: 150px;
+    margin-top: 50px;
 
 }
 
@@ -172,14 +174,15 @@ html {
 }
 
 /*************************** Fonts CSS *******************/
-.word {
+/*.word {
   color: #f6f6f6;
   font-family: sans-serif;
   letter-spacing: 1px;
   font-size: 1.2em;
-}
+}*/
 .orange {
     color:#ff7700;
+    font-family: "Roboto", sans-serif;
 }
 
 .text {
@@ -207,16 +210,15 @@ html {
 
 /**************************** About us page ****************/
 .title-3 {
-   height: 300px;
+   height: 500px;
 
-  background: url(../images/cycle.jpg) no-repeat;
-  -webkit-background-size: cover;
+  background: url(../images/cycle.jpg) no-repeat center center;
+ -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   display:flex;
   justify-content: center;
-
 }
 
 .about-us {
@@ -226,13 +228,25 @@ html {
     letter-spacing: 2px;
 }
 
+.aboutus-container {
+   
+    padding: 0 !important;
+}
+
 /* ------------------- Trainer section -------*/
+
+.trainer-title {
+    margin-top:150px;
+    font-size: 290% !important;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+}
 
 .trainer-pic1 {
    
     width:80%;
     height: 300px;
-    border: 2px solid #ff7700;
+    border: 4px solid #ff7700;
     border-radius: 5%;
     margin: 150px auto 0 auto;
     background-color: silver;
@@ -241,11 +255,11 @@ html {
 
 .pic1 {
    
-     background: url(../images/trainer-1.jpg) no-repeat top center;
+     background: url(../images/trainer-1.png) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
-     transition: 0.5s all ease-in-out;
+     transition: 0.3s all ease-in-out;
 }     
 .pic1:hover {
     
@@ -254,7 +268,7 @@ html {
 .trainer-pic2 {
     width:80%;
     height: 300px;
-    border: 2px solid #ff7700;
+    border: 4px solid #ff7700;
     border-radius: 5%;
     margin: 150px auto 0 auto;
     background-color: blue;
@@ -263,7 +277,7 @@ html {
 
 .pic2 {
    
-     background: url(../images/trainer-2.jpg) no-repeat top center;
+     background: url(../images/trainer-2.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -276,7 +290,7 @@ html {
 .trainer-pic3 {
     width:80%;
     height: 300px;
-    border: 2px solid #ff7700;
+    border: 4px solid #ff7700;
     border-radius: 5%;
     margin: 150px auto 0 auto;
      background-color: green;
@@ -285,11 +299,12 @@ html {
 
 .pic3 {
    
-     background: url(../images/trainer-3.jpg) no-repeat top center;
+    background: url(../images/trainer-3.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
-     transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+     
 }
 
 .pic3:hover {
@@ -297,18 +312,13 @@ html {
   
 }
 
-.trainer-title {
-    margin-top:150px;
-    font-size: 290% !important;
-    font-family: "Anton", sans-serif;
-}
-
 .text-trainer {
     width: 80%;
     text-align: center;
     text-transform: uppercase;
     color: #f6f6f6;
-    font-size: 120%;
+    font-size: 90%;
+    font-family: "Roboto", sans-serif;
 }
 .train-align {
     margin: 0 auto;
@@ -323,8 +333,8 @@ html {
 
 
 .price-title {
-    margin-top: 30%;
-    margin-bottom: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     font-size: 270%;
     text-transform: uppercase;
     font-family: "Anton", sans-serif;
@@ -335,9 +345,32 @@ html {
     height: 350px;
     border-radius: 10px;
     padding:0 !important;
-    overflow: hidden;
+    overflow:  unset;
+    position:relative;
     transition: 0.3s all ease-in-out;
+    z-index: 1;
 
+}
+
+.best-value {
+    width:80px;
+    height: 80px;
+    color:#f6f6f6;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(68, 126, 250);
+    border-radius: 40px;
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    z-index: 2;
+    transition: 0.5s all cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.best-value:hover {
+    background-color: #f6f6f6;
+    color: rgb(68, 126, 250);
+    transform: scale(1.05);
+     
 }
 
 .yearly a {
@@ -397,12 +430,13 @@ html {
 }
 
 .space {
-    position: absolute;
+   
     width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: rgb(68, 126, 250);
     margin:0 !important;
     padding:0 !important;
+    border-radius: 0 0 10px 10px;
 }
 .yearly:hover {
     transform: scale(1.05);
@@ -428,34 +462,14 @@ html {
 }
 .info:hover {
     color: #f6f6f6;
+    border-color: #f6f6f6;
 }
-
-/*************************************** Footer Section **************************/
-footer{
-    margin-top: 50px;
-    
-}
-
-.social a {
-    display:block;
-    float:left;
-    padding: 5px;
-}
-
-.social a i {
-    color: #f6f6f6 !important;
-    font-size: 180%;
-    padding: 5px;
-    transition: 0.3s all ease-in-out;
-}
-
-.social:hover a i {
-    color:#ff7700 !important;
-    transform: translateY(3px) !important;
+.info:focus {
+    border-color: #f6f6f6;
 }
 
 
-/************************ Trainer b0x & Price Cards *********/
+/************************ Media Queries ******************/
 @media screen and (max-width: 770px) {
     .yearly {
         width: 60%;
@@ -480,7 +494,6 @@ footer{
         width: 65%;
     }
     .trainer-box {
-      /*  width: 70%;*/
         margin: 0 auto;
     }
 }
@@ -540,22 +553,181 @@ footer{
     .mem-pic {
         margin: 0 auto;
     }
+    .menu li a:hover {
+  color: #ff7700 !important;
+  transform: scale(1);
+
+}
 }
 
+@media screen and (max-width: 992px){
+   .price-space {
+      font-size: 80%;
+   }
+   .space {
+       height: 39px;
+       line-height: 39px;
+   }
+   .best-value {
+        left: 80px !important;
+        scale: inherit;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .best-value {
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-value {
+        left: 190px !important;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .best-value {
+        left: 150px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .best-value {
+        left: 120px !important;
+    }
+}
+/************************ Members Review *******************/
 .mem-pic {
     margin:200px auto 0 auto;
-    width:80%;
-    height:250px;
-    
-    border-radius: 5px 5px 0 0;
+    width:200px;
+    height:200px;
+    border: 4px solid #f6f6f6;
+    border-radius: 100px;
+    overflow: hidden;
 }
 
-.profile {
-    background: url(../images/profile.png) no-repeat center center;
-    width:100%;
-    height:100%;
+.profile-1 {
+    background: url(../images/mem-1.jpg) no-repeat;
+    background-size: contain;
+    width:190px;
+    height: 190px;
+    border-radius: 100px;
+    margin: 0 auto;
+    border:10px solid #ff7700;
+    margin-top: 1px;
 }
-
+.profile-2 {
+    background: url(../images/mem-2.jpg) no-repeat;
+    background-size: contain;
+    width:189px;
+    height: 189px;
+    border-radius: 100px;
+    margin: 0 auto;
+    border:10px solid #ff7700;
+    margin-top: 1px;
+}
+.profile-3 {
+    background: url(../images/mem-3.jpg) no-repeat;
+    background-size: contain;
+    width:190px;
+    height: 190px;
+    border-radius: 100px;
+    margin: 0 auto;
+    border:10px solid #ff7700;
+    margin-top: 1px;
+}
 .icon {
     margin: 0 auto;
+}
+
+/*************************************** Footer Section **************************/
+footer{
+    margin-top: 50px;
+    
+}
+
+.social a {
+    display:block;
+    float:left;
+    padding: 5px;
+}
+
+.social a i {
+    color: #f6f6f6 !important;
+    font-size: 180%;
+    padding: 5px;
+    transition: 0.3s all ease-in-out;
+}
+
+.social:hover a i {
+    color:#ff7700 !important;
+    transform: translateY(3px) !important;
+}
+/*********************** Mmembers Page ************************/
+
+.title-2 {
+    margin-top:100px !important;
+    height: 500px;
+    background: url(../images/title-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+ .members-title {
+     margin: 0!important;
+     padding: 0!important;
+ }
+/*********************** gym pictures *************************/
+
+
+.gym {
+    margin-top: 200px !important;
+}
+
+.big-text {
+    font-size: 180px;
+    color: #ff7700;
+    margin-top: 100px;
+    font-family: "Anton", sans-serif;
+}
+.big-text-middle {
+    font-size: 180px;
+    color: #f6f6f6;
+    margin-top: 100px;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+}
+
+.player-box {
+
+ /*  border: 3px solid #ffffff;
+    width: 500px;
+    height: 500px;
+    margin:0;
+    padding:0;
+    */
+}
+
+.player-1 {
+    background: url(../images/gym-1.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 498px;
+    height: 498px;
+    border: 13px solid #f6f6f6b9;
+}
+
+.player-2 {
+    background: url(../images/gym-2.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 498px;
+    height: 498px;
+    border: 13px solid #df680096;
+}
+
+.player-3 {
+    background: url(../images/gym-3.jpeg) no-repeat right;
+    background-size: cover;
+    width: 498px;
+    height: 498px;
+    border: 13px solid #f6f6f6b9;
 }
