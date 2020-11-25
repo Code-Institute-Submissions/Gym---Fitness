@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+
 
 /* ------------------ all body css ****************/
 body {
@@ -19,9 +15,7 @@ html {
 }
 
 /* ------------------ Logo -----*/
-.table-head {
-    font-size: 80%; 
-}
+
 
 /* ------------------ Navbar -- */
 
@@ -45,7 +39,7 @@ html {
 .menu li a{
   color: #f6f6f6 !important;
   
- font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif;
   transition: 0.5s ease-in-out;
   padding: 5px 15px;
   margin: 10px 10px;
@@ -55,7 +49,11 @@ html {
 .menu li a:hover {
   color: #ff7700 !important;
   transform: scale(1.1);
+}
 
+.active-nav {
+    border-bottom: 2px solid #ff7700;
+    transform: scale(1.1);
 }
 
 /**************************** home page first title **************/
@@ -68,25 +66,24 @@ html {
     background-size: cover;
     display:flex;
     justify-content: center;
-    height: 85vh;
-    margin-bottom: 200px !important;
+    height: 95vh;
+    margin-bottom: 0;
     margin-top: 50px;
 
 }
 
 .first-card {
-     margin-top: 60px !important;
-    margin-bottom: 200px !important;
+    margin-top: 155px;
     background-color: transparent !important;
-}
+}   
 .title-head {
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(78, 52, 12, 0.699);
   border-radius: 10px;
-  padding: 25px;
+  padding: 5px;
   margin-top: 0px;
   margin-bottom: 25px;
   color: #ff7700;
-  font-size: 4em;
+  font-size: 290%;
   font-family: "Anton", sans-serif;
   letter-spacing: 3px;
 }
@@ -117,43 +114,6 @@ html {
 
 }
 
-/*---------------------------- Arrow Home page---*/
-.arrow {
-  
-  position: absolute;
-  text-decoration: none;
-  top: 95%;
-  left: 50%;
-  color: #ff7700;
-  font-size: 1.8em;
-  animation: bounce 2s infinite;
-  transition: 0.3s all ease-in-out;
-}
-.arrow:hover {
-  color: #f6f6f6;
-  animation-play-state: paused;
-}
-
-/* ------------------- Arrow animation Refference W3school ---*/
-@keyframes bounce {
-	0%,
-	25%,
-	50%,
-	75%,
-	100% {
-		-webkit-transform: translateY(0);
-		        transform: translateY(0);
-	}
-	40% {
-		-webkit-transform: translateY(-20px);
-		        transform: translateY(-20px);
-	}
-	60% {
-		-webkit-transform: translateY(-12px);
-		        transform: translateY(-12px);
-	}
-}
-
 /*************************** Logo ************/
 .logo a h3 {
     text-decoration: none !important;
@@ -174,15 +134,11 @@ html {
 }
 
 /*************************** Fonts CSS *******************/
-/*.word {
-  color: #f6f6f6;
-  font-family: sans-serif;
-  letter-spacing: 1px;
-  font-size: 1.2em;
-}*/
+
 .orange {
     color:#ff7700;
-    font-family: "Roboto", sans-serif;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
 }
 
 .text {
@@ -200,6 +156,12 @@ html {
   margin-top: 20px;
 }
 
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    color: #f6f6f6;
+    font-size: 80%;
+    letter-spacing: 0;
+}
 
 /************************ horizontal line CSS *********/
 .line {
@@ -224,7 +186,7 @@ html {
 .about-us {
     font-family: "Anton", sans-serif;
     color: #ff7700;
-    font-size: 200%;
+    font-size: 290%;
     letter-spacing: 2px;
 }
 
@@ -235,9 +197,8 @@ html {
 
 /* ------------------- Trainer section -------*/
 
-.trainer-title {
-    margin-top:150px;
-    font-size: 290% !important;
+.trainer-title{
+    margin-top:180px !important;
     font-family: "Anton", sans-serif;
     letter-spacing: 2px;
 }
@@ -248,14 +209,14 @@ html {
     height: 300px;
     border: 4px solid #ff7700;
     border-radius: 5%;
-    margin: 150px auto 0 auto;
+    margin: 100px auto 0 auto;
     background-color: silver;
     overflow: hidden;
 }
 
 .pic1 {
    
-     background: url(../images/trainer-1.png) no-repeat;
+     background: url(../images/trainer-1.png) no-repeat  top center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -270,18 +231,18 @@ html {
     height: 300px;
     border: 4px solid #ff7700;
     border-radius: 5%;
-    margin: 150px auto 0 auto;
+    margin: 100px auto 0 auto;
     background-color: blue;
     overflow: hidden;
 }
 
 .pic2 {
    
-     background: url(../images/trainer-2.jpg) no-repeat;
+    background: url(../images/trainer-2.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
-     transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 .pic2:hover {
@@ -292,14 +253,14 @@ html {
     height: 300px;
     border: 4px solid #ff7700;
     border-radius: 5%;
-    margin: 150px auto 0 auto;
+    margin: 100px auto 0 auto;
      background-color: green;
     overflow: hidden;
 }
 
 .pic3 {
    
-    background: url(../images/trainer-3.jpg) no-repeat;
+    background: url(../images/trainer-3.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -328,14 +289,15 @@ html {
 
 .price-box {
     margin: 50px auto 200px auto;
+    padding: 0 50px;
 }
 
 
 
 .price-title {
-    margin-top: 20%;
+    margin-top: 25%;
     margin-bottom: 20%;
-    font-size: 270%;
+    font-size: 290%;
     text-transform: uppercase;
     font-family: "Anton", sans-serif;
     letter-spacing: 2px;
@@ -349,6 +311,7 @@ html {
     position:relative;
     transition: 0.3s all ease-in-out;
     z-index: 1;
+    margin-bottom: 40px;
 
 }
 
@@ -382,8 +345,8 @@ html {
     height: 350px;
     border-radius: 10px;
     padding:0 !important;
-    overflow: hidden;
     transition: 0.3s all ease-in-out;
+     margin-bottom: 40px;
 }
 
 .quarterly a {
@@ -469,137 +432,18 @@ html {
 }
 
 
-/************************ Media Queries ******************/
-@media screen and (max-width: 770px) {
-    .yearly {
-        width: 60%;
-       
-        margin:0 auto 30px auto !important;
-    }
-    .quarterly {
-        width: 60%;
-        margin:0 auto 30px auto !important;   
-    }
-    .monthly {
-        width: 60%;
-        margin:0 auto 30px auto !important;     
-    }
-    .trainer-pic1 {
-        width: 65%;
-    }
-    .trainer-pic2 {
-        width: 65%;
-    }
-    .trainer-pic3 {
-        width: 65%;
-    }
-    .trainer-box {
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width: 660px) {
-    .jumbo {
-        
-        margin-top: 0 !important;
-    }    
-}
-
-@media screen and (max-width: 1100px) {
-    .jumbo {
-        font-size: 1.2em;
-        margin-top: 0 !important;
-    }
-
-    .title-1 {
-        margin-top: 50px !important;
-        margin-bottom: 40px !important;
-        font-size: 10px;
-}
-    .joinus-box {
-        margin-top: 0;
-}
-    .title-head {
-        margin-bottom: 0 !important;
-}
-}
-@media only screen and (max-width: 600px) {
-
-.title-1 {
-  margin-top: 30px !important;
-  margin-bottom: 100px !important;
-  font-size: 10px;
-  height: 50vh;
-}
-.title-head {
-    font-size: 2em;
-    margin-bottom: 0;
-}
-.join-btn {
-    font-size: 130%;
-}
-    blockquote {
-        margin-bottom: 0;
-    }
-    .price-box {
-        margin-bottom: 25px;
-    }
-    .trainer-pic2 {
-        margin-top: 45px !important;
-    }
-    .trainer-pic3 {
-        margin-top: 45px !important;
-    }
-    .mem-pic {
-        margin: 0 auto;
-    }
-    .menu li a:hover {
-  color: #ff7700 !important;
-  transform: scale(1);
-
-}
-}
-
-@media screen and (max-width: 992px){
-   .price-space {
-      font-size: 80%;
-   }
-   .space {
-       height: 39px;
-       line-height: 39px;
-   }
-   .best-value {
-        left: 80px !important;
-        scale: inherit;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .best-value {
-        left: 120px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .best-value {
-        left: 190px !important;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .best-value {
-        left: 150px !important;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .best-value {
-        left: 120px !important;
-    }
-}
 /************************ Members Review *******************/
+
+.review-head{
+    margin-top: 200px;
+    color: #f6f6f6;
+    font-family: "Anton", sans-serif;
+    font-size: 290%;
+    letter-spacing: 2px;
+}
 .mem-pic {
-    margin:200px auto 0 auto;
+    margin:100px auto 0 auto;
     width:200px;
     height:200px;
     border: 4px solid #f6f6f6;
@@ -668,7 +512,7 @@ footer{
 
 .title-2 {
     margin-top:100px !important;
-    height: 500px;
+    height: 30vh;
     background: url(../images/title-2.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -685,27 +529,18 @@ footer{
 }
 
 .big-text {
-    font-size: 180px;
+    font-size: 160px;
     color: #ff7700;
-    margin-top: 100px;
-    font-family: "Anton", sans-serif;
-}
-.big-text-middle {
-    font-size: 180px;
-    color: #f6f6f6;
     margin-top: 100px;
     font-family: "Anton", sans-serif;
     text-align: center;
 }
-
-.player-box {
-
- /*  border: 3px solid #ffffff;
-    width: 500px;
-    height: 500px;
-    margin:0;
-    padding:0;
-    */
+.big-text-middle {
+    font-size: 160px;
+    color: #f6f6f6;
+    margin-top: 100px;
+    font-family: "Anton", sans-serif;
+    text-align: center;
 }
 
 .player-1 {
@@ -730,4 +565,175 @@ footer{
     width: 498px;
     height: 498px;
     border: 13px solid #f6f6f6b9;
+}
+
+.title-4 {
+   
+    height: 500px;
+    background: url(../images/contact.jpg) no-repeat center center;
+    background-size: cover;
+}
+.contact {
+    padding:0;
+}
+
+/************************ Media Queries index page******************/
+@media screen and (max-width:1600px) {
+    .title-head {
+        margin-top: 165px;
+    }
+    .price-title {
+        margin: 20% auto 15% auto;
+    }
+}
+
+@media screen and (max-width:992px) {    
+    .title-1 {
+        height: 50vh !important;
+    }
+    
+    .active-nav {
+        border: none;
+        transform: scale(1);
+    }
+    .active-nav:hover {
+        transform: scale(1) !important;
+    }
+    .menu li a:hover {
+    transform: scale(1);
+    }
+    .title-head {
+        
+        margin-top: 0px;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+        text-align: left;
+        padding: 15px;
+    }
+    .join-btn {
+        font-size: 0.7em;
+    }
+    
+    blockquote {
+        margin-bottom: 0 !important;
+        width: 60%;
+    }
+    .trainer-title {
+        margin-top: 100px !important;
+        font-size: 230% !important;
+    }
+    .trainer-box {
+        margin: 0px auto !important;
+    }
+    .price-title {
+        margin-bottom: 30%;
+    }
+    .yearly,
+    .quarterly,
+    .monthly {
+        margin-right: 15px;;
+    }
+    .best-value {
+        left: 180px !important;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .title-head {
+        margin-top: 15px !important;
+         padding: 15px;
+         font-size: 230% !important;
+    }
+    .title-1 {
+        height: 50vh !important;
+    }
+    
+    .price-box {
+        margin-top: 0px;
+    }
+    
+     .best-value {
+        left: 140px !important;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px){
+    
+    .title-1 {
+        height: 50vh;
+    }
+    .active-nav {
+        border: none;
+        transform: scale(1);
+    }
+    .active-nav:hover {
+        transform: scale(1) !important;
+    }
+    .menu li a:hover {
+    transform: scale(1);
+    }
+  
+    .title-head {
+        font-size: 130% !important;
+        margin-top: 30px;
+        
+        letter-spacing: 2px;
+    }
+    .join-btn {
+        font-size: 80%;
+    }
+    blockquote {
+        margin-bottom: 0 !important;
+        width: 100%;
+    }
+    .trainer-title {
+        margin-top:100px !important;
+        font-size: 200% !important;
+    }
+    .trainer-box {
+        margin: 0px auto !important;
+    }
+    .best-value {
+        left: 55% !important;
+    }
+}
+
+/********************** Media Queries Members Page ******************/
+
+@media screen and (min-width:320px) {
+    .gym {
+        margin-top: 40px !important;
+    }
+    .player-1 {
+        border: none;
+        width: 90%;
+         height: 300px;
+        margin:0;
+    }
+    .player-2 {
+        border: none;
+        width: 90%;
+        height: 300px;
+        
+        margin:0;
+    }
+    .player-3 {
+        border: none;
+        width: 90%;
+         height: 300px;
+        margin:0;
+    }
+    .trainer-title h2{
+    font-size: 100%;
+
+}
+    .review-head {
+       padding-right: 0;
+    }
+    div.member-review {
+       margin: 0 !important;
+    }
 }
