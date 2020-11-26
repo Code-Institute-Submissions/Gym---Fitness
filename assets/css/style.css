@@ -66,14 +66,14 @@ html {
     background-size: cover;
     display:flex;
     justify-content: center;
-    height: 95vh;
+    height: 60vh;
     margin-bottom: 0;
     margin-top: 50px;
 
 }
 
 .first-card {
-    margin-top: 155px;
+    margin-top: 135px;
     background-color: transparent !important;
 }   
 .title-head {
@@ -81,7 +81,7 @@ html {
   border-radius: 10px;
   padding: 5px;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   color: #ff7700;
   font-size: 290%;
   font-family: "Anton", sans-serif;
@@ -201,8 +201,8 @@ html {
     margin-top:180px !important;
     font-family: "Anton", sans-serif;
     letter-spacing: 2px;
+    font-size: 230% !important;
 }
-
 .trainer-pic1 {
    
     width:80%;
@@ -529,7 +529,7 @@ footer{
 }
 
 .big-text {
-    font-size: 160px;
+    font-size: 140px;
     color: #ff7700;
     margin-top: 100px;
     font-family: "Anton", sans-serif;
@@ -638,32 +638,10 @@ footer{
     }
 }
 
-@media screen and (max-width:1280px) {
-    .title-head {
-        margin-top: 15px !important;
-         padding: 15px;
-         font-size: 230% !important;
-    }
-    .title-1 {
-        height: 50vh !important;
-    }
-    
-    .price-box {
-        margin-top: 0px;
-    }
-    
-     .best-value {
-        left: 140px !important;
-    }
-}
-
-
-
-
 @media screen and (max-width:768px){
     
     .title-1 {
-        height: 50vh;
+        height: 40vh;
     }
     .active-nav {
         border: none;
@@ -697,6 +675,27 @@ footer{
         margin: 0px auto !important;
     }
     .best-value {
+        left: 55% !important;
+    }
+}
+@media screen and (max-width:1280px) {
+    .title-head {
+        margin-top: 15px !important;
+         padding: 15px;
+         font-size: 230%;
+    }
+    .first-card {
+        margin-top: 150px;
+    }
+    .title-1 {
+        height: 40vh !important;
+    }
+    
+    .price-box {
+        margin-top: 0px;
+    }
+    
+     .best-value {
         left: 55% !important;
     }
 }
