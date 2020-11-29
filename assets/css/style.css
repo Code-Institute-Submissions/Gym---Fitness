@@ -163,6 +163,12 @@ html {
     letter-spacing: 0;
 }
 
+.timing {
+    font-family: "Roboto", sans-serif;
+    color: #f6f6f6;
+    font-size: 80%;
+}
+
 /************************ horizontal line CSS *********/
 .line {
   height: 2px;
@@ -490,7 +496,9 @@ footer{
     margin-top: 50px;
     
 }
-
+.footer {
+    padding-left: 0 !important;
+}
 .social a {
     display:block;
     float:left;
@@ -580,7 +588,7 @@ footer{
 /************************ Media Queries index page******************/
 @media screen and (max-width:1600px) {
     .title-head {
-        margin-top: 165px;
+        margin-top: 15px;
     }
     .price-title {
         margin: 20% auto 15% auto;
