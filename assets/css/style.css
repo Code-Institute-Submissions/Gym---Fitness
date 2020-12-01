@@ -21,14 +21,14 @@ body {
   background-color: #000 !important;
   line-height: 24px;
   height: 80px;
+
 }
 
 .menu {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 1);
   font-size: 1.4em;
-  margin-top:30px;
-  margin-bottom: 30px;
-  margin-left:auto;
+  margin-left: auto;
+  border-radius: 0 0 5px 5px;
 
 }
 .menu a{
@@ -40,7 +40,7 @@ body {
   font-family: "Roboto", sans-serif;
   transition: 0.5s ease-in-out;
   padding: 5px 15px;
-  margin: 10px 10px;
+  margin: 0 10px;
   letter-spacing: 1px;
 
 }
@@ -64,7 +64,7 @@ body {
     background-size: cover;
     display:flex;
     justify-content: center;
-    height: 60vh;
+    height: 50vh;
 }
 
 .first-card {
@@ -155,6 +155,10 @@ body {
     letter-spacing: 0;
 }
 
+.icon {
+    color: #ff7700;
+    font-size: 140%;
+}
 .timing {
     font-family: "Roboto", sans-serif;
     color: #f6f6f6;
@@ -166,31 +170,6 @@ body {
   height: 2px;
   background-color: #ff7700;
   border-radius: 25px;
-}
-
-/**************************** About us page ****************/
-.title-3 {
-   height: 50vh;
-
-  background: url(../images/cycle.jpg) no-repeat center center;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display:flex;
-  justify-content: center;
-}
-
-.about-us {
-    font-family: "Roboto", sans-serif;
-    color: #ff7700;
-    font-size: 290%;
-    letter-spacing: 1px;
-}
-
-.aboutus-container {
-
-    padding: 0 !important;
 }
 
 /* ------------------- Trainer section -------*/
@@ -431,6 +410,70 @@ body {
 
 
 
+
+/*********************** Mmembers Page ************************/
+
+.title-2 {
+    
+    height: 50vh;
+    background: url(../images/title-2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+}
+
+ .members-title {
+     padding: 0;
+ }
+/*********************** gym pictures *************************/
+
+
+.gym {
+    margin-top: 100px;
+}
+
+.big-text {
+    font-size: 140px;
+    color: #ff7700;
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.big-text-middle {
+    font-size: 160px;
+    color: #f6f6f6;
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.player-1 {
+    background: url(../images/gym-1.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 498px;
+    height: 498px;
+    border: 13px solid #f6f6f6b9;
+}
+
+.player-2 {
+    background: url(../images/gym-2.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 498px;
+    height: 498px;
+    border: 13px solid #df680096;
+}
+
+.player-3 {
+    background: url(../images/gym-3.jpeg) no-repeat right;
+    background-size: cover;
+    width: 498px;
+    height: 498px;
+    border: 13px solid #f6f6f6b9;
+}
+
 /************************ Members Review *******************/
 
 .review-head{
@@ -483,6 +526,53 @@ body {
     margin: 0 auto;
 }
 
+
+
+/**************************** About us page ****************/
+
+
+.title-3 {
+  background: url(../images/cycle.jpg) no-repeat center center;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+   height: 40vh;
+}
+
+.about-us {
+    font-family: "Roboto", sans-serif;
+    color: #ff7700;
+    font-size: 290%;
+    letter-spacing: 1px;
+}
+
+.aboutus-container {
+
+    padding: 0;
+}
+
+
+/****************************** Contact page *****************/
+.title-4 {
+
+    height: 50vh;
+    background: url(../images/contact.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.contact {
+    padding:0;
+}
+
+
 /*************************************** Footer Section **************************/
 footer{
     margin-top: 50px;
@@ -508,74 +598,8 @@ footer{
     color:#ff7700 !important;
     transform: translateY(3px) !important;
 }
-/*********************** Mmembers Page ************************/
-
-.title-2 {
-    
-    height: 60vh;
-    background: url(../images/title-2.jpg) no-repeat center center;
-    background-size: cover;
-}
-
- .members-title {
-     padding: 0;
- }
-/*********************** gym pictures *************************/
 
 
-.gym {
-    margin-top: 100px;
-}
-
-.big-text {
-    font-size: 140px;
-    color: #ff7700;
-    margin-top: 100px;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-}
-.big-text-middle {
-    font-size: 160px;
-    color: #f6f6f6;
-    margin-top: 100px;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-}
-
-.player-1 {
-    background: url(../images/gym-1.jpeg) no-repeat center center;
-    background-size: cover;
-    width: 498px;
-    height: 498px;
-    border: 13px solid #f6f6f6b9;
-}
-
-.player-2 {
-    background: url(../images/gym-2.jpeg) no-repeat center center;
-    background-size: cover;
-    width: 498px;
-    height: 498px;
-    border: 13px solid #df680096;
-}
-
-.player-3 {
-    background: url(../images/gym-3.jpeg) no-repeat right;
-    background-size: cover;
-    width: 498px;
-    height: 498px;
-    border: 13px solid #f6f6f6b9;
-}
-
-.title-4 {
-
-    height: 50vh;
-    background: url(../images/contact.jpg) no-repeat center center;
-    background-size: cover;
-    background-position: cover;
-}
-.contact {
-    padding:0;
-}
 
 /************************ Media Queries index page******************/
 @media screen and (max-width:1600px) {
@@ -602,19 +626,21 @@ footer{
     }
 
     .trainer-title {
-        margin-top: 100px !important;
+        
         font-size: 230% !important;
     }
     .trainer-box {
         margin: 0px auto !important;
     }
     .price-title {
-        margin-bottom: 30%;
+       margin-bottom: 30%;
+       font-size: 180%;
     }
     .yearly,
     .quarterly,
-    .monthly {
-        margin-right: 15px;;
+    .monthly
+    {
+        margin-right: 10px;
     }
     .best-value {
         left: 180px !important;
@@ -642,7 +668,6 @@ footer{
         font-size: 80%;
     }
     .trainer-title {
-        margin-top:100px !important;
         font-size: 200% !important;
     }
     .trainer-box {
@@ -651,13 +676,12 @@ footer{
     .best-value {
         left: 55% !important;
     }
+     .price-box {
+        margin-bottom: 50px;
+    } 
+    
 }
 @media screen and (max-width:1280px) {
-
-  .price-box {
-        margin-top: 0px;
-    }
-
      .best-value {
         left: 55% !important;
     }
@@ -683,7 +707,7 @@ footer{
     .player-3 {
         border: none;
         width: 90%;
-         height: 300px;
+        height: 300px;
         margin:0;
     }
     .trainer-title h2{
