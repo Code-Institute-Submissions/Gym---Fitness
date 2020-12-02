@@ -1,6 +1,6 @@
 # milestone-project-1
 
-
+![](assets/images/amiresponsive.png)
 
 ## THE GYM & Fitness
 
