@@ -93,10 +93,11 @@ Throughout the developement I was checking my code to see if it performed as I w
 I mostly used Google Chrome for this. I used the developer tools to check and analyse the view, functionality and user experience in different screen sizes and device simulations.
 
 ### Deployment
--
--
--
+For this project I have used GitHub pages to deploy the site. when I started to create the site I created a github repository and thoughout the development I have periodically added and commited changes. It is a straight forward process to deploy a GitHub repository to GitHub pages. I Logged in to the git hub website and selected the correct repository 'the-gym'. On the settings tab I scrolled down to the 'GitHub Pages' section. In this section I clicked on the 'source' button and selected 'master branch' as this is where the files I wanted to deploy have been commited to.
 
+As this is a fairly small project with a limited amount of files and content I have only been using the master branch within the github repository. I understand that with more complex sites and data it may be prudent in the future to introduce different branches. Therefore the deployed version of the site is identical to the files located within the repository.
+
+To run locally clone repo directly by passing git clone command, onto the terminal.
 
 ### Credits
 
@@ -111,9 +112,9 @@ I mostly used Google Chrome for this. I used the developer tools to check and an
 
 As this is not a fully functioning site I just selected images that i liked from a 
 
-- google image search
-- unsplash.com
-- pexels.com
+- https://google.com image search
+- https://unsplash.com
+- https://pexels.com
 
 ### Acknowledgements
 I received inspiration for this project from:
