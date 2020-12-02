@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 /* ------------------ all body css ****************/
@@ -10,10 +10,6 @@ body {
 * a {
     text-decoration: none !important;
 }
-
-
-/* ------------------ Logo -----*/
-
 
 /* ------------------ Navbar -- */
 
@@ -36,7 +32,6 @@ body {
 }
 .menu li a{
   color: #f6f6f6 !important;
-
   font-family: "Roboto", sans-serif;
   transition: 0.5s ease-in-out;
   padding: 5px 15px;
@@ -94,17 +89,17 @@ body {
 .join-btn {
   background-color: #ff7700 ;
   transition: 0.5s ease-in-out;
-  color: #f6f6f6;
+  color: #000;
   border-radius: 25px;
   border:0;
 }
 
 .join-btn:hover {
     color: #ff7700;
-    background-color: #f6f6f6;
+    background-color: #000;
 
 }
-.start {
+.start-trial {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -113,16 +108,12 @@ body {
 .logo a h3 {
     text-decoration: none !important;
     color:#ff7700;
-}
-
-.logo a h3 {
     animation: mymove 6s infinite;
-
 }
 
 @keyframes mymove {
   0%   {color: #f6f6f6;}
-  25%  {color:#ff7700;}
+  25%  {color: #ff7700;}
   50%  {color: #f6f6f6;}
   75%  {color: #ff7700;}
   100% {color: #f6f6f6;}
@@ -175,10 +166,10 @@ body {
 /* ------------------- Trainer section -------*/
 
 .trainer-title{
-    margin-top:80px !important;
+    margin-top:80px;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 2px;
-    font-size: 230% !important;
+    letter-spacing: 1px;
+    font-size: 270%;
 }
 .trainer-pic1 {
 
@@ -187,17 +178,16 @@ body {
     border: 4px solid #ff7700;
     border-radius: 5%;
     margin: 100px auto 0 auto;
-    background-color: silver;
     overflow: hidden;
 }
 
 .pic1 {
 
-     background: url(../images/trainer-1.png) no-repeat  top center;
+    background: url(../images/trainer-1.png) no-repeat  top center;
     background-size: cover;
     width: 100%;
     height: 100%;
-     transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 .pic1:hover {
 
@@ -209,7 +199,6 @@ body {
     border: 4px solid #ff7700;
     border-radius: 5%;
     margin: 100px auto 0 auto;
-    background-color: blue;
     overflow: hidden;
 }
 
@@ -231,7 +220,6 @@ body {
     border: 4px solid #ff7700;
     border-radius: 5%;
     margin: 100px auto 0 auto;
-     background-color: green;
     overflow: hidden;
 }
 
@@ -284,7 +272,6 @@ body {
     height: 350px;
     border-radius: 10px;
     padding:0 !important;
-    overflow:  unset;
     position:relative;
     transition: 0.3s all ease-in-out;
     z-index: 1;
@@ -297,7 +284,7 @@ body {
     height: 80px;
     color:#f6f6f6;
     font-family: "Roboto", sans-serif;
-    background-color: rgb(68, 126, 250);
+    background-color: rgb(41, 76, 153);
     border-radius: 40px;
     position: absolute;
     top: -50px;
@@ -308,13 +295,13 @@ body {
 
 .best-value:hover {
     background-color: #f6f6f6;
-    color: rgb(68, 126, 250);
+    color: rgb(41, 76, 153);
     transform: scale(1.05);
 
 }
 
 .yearly a {
-    text-decoration: none;
+    
     color:black;
 }
 .quarterly {
@@ -327,7 +314,7 @@ body {
 }
 
 .quarterly a {
-    text-decoration: none;
+   
     color:black;
 }
 
@@ -341,7 +328,7 @@ body {
 }
 
 .monthly a  {
-    text-decoration: none;
+   
     color:black;
 }
 
@@ -370,14 +357,12 @@ body {
 }
 
 .space {
-
     width: 100%;
     height: 30px;
-    background-color: rgb(68, 126, 250);
-    margin:0 !important;
-    padding:0 !important;
+    background-color: rgb(41, 76, 153);
     border-radius: 0 0 10px 10px;
 }
+
 .yearly:hover {
     transform: scale(1.05);
 }
@@ -549,9 +534,9 @@ body {
     letter-spacing: 1px;
 }
 
-.aboutus-container {
+.about-container {
 
-    padding: 0;
+    padding: 0 !important;
 }
 
 
@@ -602,12 +587,7 @@ footer{
 
 
 /************************ Media Queries index page******************/
-@media screen and (max-width:1600px) {
 
-    .price-title {
-        margin: 20% auto 15% auto;
-    }
-}
 
 @media screen and (max-width:992px) {
     .active-nav {
@@ -678,7 +658,10 @@ footer{
     }
      .price-box {
         margin-bottom: 50px;
-    } 
+    }
+    .about-text {
+        padding: 0 25px;
+} 
     
 }
 @media screen and (max-width:1280px) {
