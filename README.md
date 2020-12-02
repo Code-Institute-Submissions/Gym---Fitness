@@ -5,7 +5,7 @@
 ## THE GYM & Fitness
 
 Purpose is to design a website with useful information to I'ts users using HTML, CSS and Bootstrap
-that I have leart from Full Stack Developer Code Institute Course.
+that I have learnt from Full Stack Developer Code Institute Course.
 
 I have produced a website for fictious Gym. It is for a small independent gym.
 
@@ -35,11 +35,11 @@ The owner wants that data is managable and presentable in a way to help them ach
 
 John just moved to the new area and is looking for a gym. He is interested in Membership costs, opening times and location.
  - John can find the address, location and membership details on the 'Home Page'. From Home page He can easily acces members page
- to view service users reviews and also click on 'About Us' page o read in detail about the gym.
+ to view service users reviews and also click on 'About Us' page to read in detail about the gym.
 
 #### Sarah
 
-Sarah Is Already a member in the gym and her membership is about to end. She is looking to change her current membershit plan to a different plan.
+Sarah Is already a member in the gym and her membership is about to end. She is looking to change her current membership plan to a different plan.
 - The phone number of the gym is available on the footer of every page if she wishes to contact the gym.
 
 #### Mark
@@ -47,7 +47,7 @@ Sarah Is Already a member in the gym and her membership is about to end. She is 
 Mark has heard about the gym from a friend, but want's to know more before he decides to join.
 -A members page includes gallery of people using gym and equipment and read reviews from other users.
 -This members page can be accesed on right side on top of the page.
-Theese pictures and reviews will hopefully give a great impact and make Mark join the Gym.
+These pictures and reviews will hopefully give a great impact and make Mark join the Gym.
 
 ### FEATURES
 
