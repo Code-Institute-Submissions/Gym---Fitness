@@ -14,7 +14,20 @@ The owner wants that data is managable and presentable in a way to help them ach
 
 ### UX
 
-.....
+- #### Home
+![](assets/images/home.png)
+
+
+- #### Members
+![](assets/images/members.png)
+
+- #### About us 
+![](assets/images/about.png)
+
+- #### Contact 
+![](assets/images/contact.png)
+
+
 
 ### USER STORIES
 
