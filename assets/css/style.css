@@ -1,31 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
 /* ------------------ all body css ****************/
 body {
-
   background-color: #000;
 }
-
 * a {
     text-decoration: none !important;
 }
-
 /* ------------------ Navbar -- */
-
 .navi {
   background-color: #000 !important;
   line-height: 24px;
   height: 80px;
-
 }
-
 .menu {
   background-color: rgba(0, 0, 0, 1);
   font-size: 1.4em;
   margin-left: auto;
   border-radius: 0 0 5px 5px;
-
 }
 .menu a{
     display:block;
@@ -37,20 +28,16 @@ body {
   padding: 5px 15px;
   margin: 0 10px;
   letter-spacing: 1px;
-
 }
 .menu li a:hover {
   color: #ff7700 !important;
   transform: scale(1.1);
 }
-
 .active-nav {
     border-bottom: 2px solid #ff7700;
     transform: scale(1.1);
 }
-
 /**************************** home page first title **************/
-
 .title-1 {
     background: url(../images/banner.jpg) no-repeat center center;
    -webkit-background-size: cover;
@@ -61,11 +48,9 @@ body {
     justify-content: center;
     height: 50vh;
 }
-
 .first-card {
     margin-top: 50px;
 }
-
 .title-head {
   color: #ff7700;
   font-size: 290%;
@@ -73,18 +58,15 @@ body {
   letter-spacing: 1px;
   text-align: center;
 }
-
 .title-head  span{
   color: #f6f6f6;
 }
 /* ------------------------------ Sign up modal ----*/
 .joinus-box {
-
   background-color: rgba(0,0,0,0.8) !important;
   color: #ff7700;
   padding: 15px;
 }
-
 /* ---------------------- Title Box start trial button---*/
 .join-btn {
   background-color: #ff7700 ;
@@ -93,24 +75,20 @@ body {
   border-radius: 25px;
   border:0;
 }
-
 .join-btn:hover {
     color: #ff7700;
     background-color: #000;
-
 }
 .start-trial {
   text-align: center;
   margin-bottom: 50px;
 }
-
 /*************************** Logo ************/
 .logo a h3 {
     text-decoration: none !important;
     color:#ff7700;
     animation: mymove 6s infinite;
 }
-
 @keyframes mymove {
   0%   {color: #f6f6f6;}
   25%  {color: #ff7700;}
@@ -118,34 +96,26 @@ body {
   75%  {color: #ff7700;}
   100% {color: #f6f6f6;}
 }
-
 /*************************** Fonts CSS *******************/
-
 .orange {
     color:#ff7700;
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
 }
-
 .text {
     text-align: right;
     color: #f6f6f6;
     font-size: 160%;
 }
-
 .story {
     text-align:  justify;
 }
-
-
-
 .footer-text {
     font-family: "Roboto", sans-serif;
     color: #f6f6f6;
     font-size: 80%;
     letter-spacing: 0;
 }
-
 .icon {
     color: #ff7700;
     font-size: 140%;
@@ -155,16 +125,13 @@ body {
     color: #f6f6f6;
     font-size: 80%;
 }
-
 /************************ horizontal line CSS *********/
 .line {
   height: 2px;
   background-color: #ff7700;
   border-radius: 25px;
 }
-
 /* ------------------- Trainer section -------*/
-
 .trainer-title{
     margin-top:80px;
     font-family: "Roboto", sans-serif;
@@ -172,7 +139,6 @@ body {
     font-size: 270%;
 }
 .trainer-pic1 {
-
     width:80%;
     height: 300px;
     border: 4px solid #ff7700;
@@ -180,7 +146,6 @@ body {
     margin: 100px auto 0 auto;
     overflow: hidden;
 }
-
 .pic1 {
 
     background: url(../images/trainer-1.png) no-repeat  top center;
@@ -190,8 +155,7 @@ body {
     transition: 0.3s all ease-in-out;
 }
 .pic1:hover {
-
-   transform: scale(1.05);
+  transform: scale(1.05);
 }
 .trainer-pic2 {
     width:80%;
@@ -201,16 +165,13 @@ body {
     margin: 100px auto 0 auto;
     overflow: hidden;
 }
-
 .pic2 {
-
     background: url(../images/trainer-2.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
     transition: 0.3s all ease-in-out;
 }
-
 .pic2:hover {
      transform: scale(1.05);
 }
@@ -222,22 +183,16 @@ body {
     margin: 100px auto 0 auto;
     overflow: hidden;
 }
-
 .pic3 {
-
     background: url(../images/trainer-3.jpg) no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
     transition: 0.3s all ease-in-out;
-
 }
-
 .pic3:hover {
    transform: scale(1.05);
-
 }
-
 .text-trainer {
     width: 80%;
     text-align: center;
@@ -249,16 +204,11 @@ body {
 .train-align {
     margin: 0 auto;
 }
-
 /**************************** Membership Price box ****************/
-
 .price-box {
     margin: 50px auto 200px auto;
     padding: 0 50px;
 }
-
-
-
 .price-title {
     margin-top: 25%;
     margin-bottom: 20%;
@@ -276,9 +226,7 @@ body {
     transition: 0.3s all ease-in-out;
     z-index: 1;
     margin-bottom: 40px;
-
 }
-
 .best-value {
     width:80px;
     height: 80px;
@@ -292,16 +240,12 @@ body {
     z-index: 2;
     transition: 0.5s all cubic-bezier(0.215, 0.610, 0.355, 1);
 }
-
 .best-value:hover {
     background-color: #f6f6f6;
     color: rgb(41, 76, 153);
     transform: scale(1.05);
-
 }
-
 .yearly a {
-    
     color:black;
 }
 .quarterly {
@@ -312,12 +256,9 @@ body {
     transition: 0.3s all ease-in-out;
      margin-bottom: 40px;
 }
-
 .quarterly a {
-   
     color:black;
 }
-
 .monthly {
     background-color: #f6f6f6;
     height: 350px;
@@ -326,55 +267,45 @@ body {
     overflow: hidden;
     transition: 0.3s all ease-in-out;
 }
-
 .monthly a  {
    
     color:black;
 }
-
 .sub-head {
     margin-top: 25px;
     margin-left: 15px;
     font-size: 120%;
     text-transform: uppercase;
 }
-
 .monthly p, .yearly p, .quarterly p {
         font-family: "Roboto", sans-serif;
         margin-left: 15px;
 }
-
 .sub-title {
     margin-top: 140px;
     font-size: 280%;
     margin-left: 15px;
 }
-
 .sub-title span {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 30%;
 }
-
 .space {
     width: 100%;
     height: 30px;
     background-color: rgb(41, 76, 153);
     border-radius: 0 0 10px 10px;
 }
-
 .yearly:hover {
     transform: scale(1.05);
 }
-
 .quarterly:hover {
     transform: scale(1.05);
 }
-
 .monthly:hover {
     transform: scale(1.05);
 }
-
 /****************************** Question & Answer modal ****************/
 .card {
     background-color: transparent;
@@ -392,14 +323,8 @@ body {
 .info:focus {
     border-color: #f6f6f6;
 }
-
-
-
-
 /*********************** Mmembers Page ************************/
-
 .title-2 {
-    
     height: 50vh;
     background: url(../images/title-2.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -409,13 +334,10 @@ body {
     display:flex;
     justify-content: center;
 }
-
  .members-title {
      padding: 0;
  }
 /*********************** gym pictures *************************/
-
-
 .gym {
     margin-top: 100px;
 }
@@ -434,7 +356,6 @@ body {
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
-
 .player-1 {
     background: url(../images/gym-1.jpeg) no-repeat center center;
     background-size: cover;
@@ -442,7 +363,6 @@ body {
     height: 498px;
     border: 13px solid #f6f6f6b9;
 }
-
 .player-2 {
     background: url(../images/gym-2.jpeg) no-repeat center center;
     background-size: cover;
@@ -450,7 +370,6 @@ body {
     height: 498px;
     border: 13px solid #df680096;
 }
-
 .player-3 {
     background: url(../images/gym-3.jpeg) no-repeat right;
     background-size: cover;
@@ -458,9 +377,7 @@ body {
     height: 498px;
     border: 13px solid #f6f6f6b9;
 }
-
 /************************ Members Review *******************/
-
 .review-head{
     margin-top: 200px;
     color: #f6f6f6;
@@ -476,7 +393,6 @@ body {
     border-radius: 100px;
     overflow: hidden;
 }
-
 .profile-1 {
     background: url(../images/mem-1.jpg) no-repeat;
     background-size: contain;
@@ -510,12 +426,7 @@ body {
 .icon {
     margin: 0 auto;
 }
-
-
-
 /**************************** About us page ****************/
-
-
 .title-3 {
   background: url(../images/cycle.jpg) no-repeat center center;
  -webkit-background-size: cover;
@@ -526,20 +437,15 @@ body {
   justify-content: center;
    height: 40vh;
 }
-
 .about-us {
     font-family: "Roboto", sans-serif;
     color: #ff7700;
     font-size: 290%;
     letter-spacing: 1px;
 }
-
 .about-container {
-
     padding: 0 !important;
 }
-
-
 /****************************** Contact page *****************/
 .title-4 {
 
@@ -556,12 +462,9 @@ body {
 .contact {
     padding:0;
 }
-
-
 /*************************************** Footer Section **************************/
 footer{
     margin-top: 50px;
-
 }
 .footer {
     padding-left: 0 !important;
@@ -571,24 +474,17 @@ footer{
     float:left;
     padding: 5px;
 }
-
 .social a i {
     color: #f6f6f6 !important;
     font-size: 180%;
     padding: 5px;
     transition: 0.3s all ease-in-out;
 }
-
 .social:hover a i {
     color:#ff7700 !important;
     transform: translateY(3px) !important;
 }
-
-
-
 /************************ Media Queries index page******************/
-
-
 @media screen and (max-width:992px) {
     .active-nav {
         border: none;
@@ -600,13 +496,10 @@ footer{
     .menu li a:hover {
     transform: scale(1);
     }
-
     .join-btn {
         font-size: 0.7em;
     }
-
-    .trainer-title {
-        
+    .trainer-title {        
         font-size: 230% !important;
     }
     .trainer-box {
@@ -626,9 +519,7 @@ footer{
         left: 180px !important;
     }
 }
-
 @media screen and (max-width:768px){
-
     .active-nav {
         border: none;
         transform: scale(1);
@@ -639,7 +530,6 @@ footer{
     .menu li a:hover {
     transform: scale(1);
     }
-
     .title-head {
         font-size: 130% !important;
         letter-spacing: 1px;
@@ -661,30 +551,25 @@ footer{
     }
     .about-text {
         padding: 0 25px;
-} 
-    
+    } 
 }
 @media screen and (max-width:1280px) {
      .best-value {
         left: 55% !important;
     }
 }
-
 /********************** Media Queries Members Page ******************/
-
 @media screen and (min-width:320px) {
-    
     .player-1 {
         border: none;
         width: 90%;
-         height: 300px;
+        height: 300px;
         margin:0;
     }
     .player-2 {
         border: none;
         width: 90%;
         height: 300px;
-
         margin:0;
     }
     .player-3 {
@@ -695,7 +580,6 @@ footer{
     }
     .trainer-title h2{
     font-size: 100%;
-
 }
     .review-head {
        padding-right: 0;
