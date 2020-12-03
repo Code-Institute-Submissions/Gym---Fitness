@@ -1,11 +1,11 @@
 # milestone-project-1
 
-
+![](assets/images/amiresponsive.png)
 
 ## THE GYM & Fitness
 
 Purpose is to design a website with useful information to I'ts users using HTML, CSS and Bootstrap
-that I have leart from Full Stack Developer Code Institute Course.
+that I have learnt from Full Stack Developer Code Institute Course.
 
 I have produced a website for fictious Gym. It is for a small independent gym.
 
@@ -35,11 +35,11 @@ The owner wants that data is managable and presentable in a way to help them ach
 
 John just moved to the new area and is looking for a gym. He is interested in Membership costs, opening times and location.
  - John can find the address, location and membership details on the 'Home Page'. From Home page He can easily acces members page
- to view service users reviews and also click on 'About Us' page o read in detail about the gym.
+ to view service users reviews and also click on 'About Us' page to read in detail about the gym.
 
 #### Sarah
 
-Sarah Is Already a member in the gym and her membership is about to end. She is looking to change her current membershit plan to a different plan.
+Sarah Is already a member in the gym and her membership is about to end. She is looking to change her current membership plan to a different plan.
 - The phone number of the gym is available on the footer of every page if she wishes to contact the gym.
 
 #### Mark
@@ -47,7 +47,7 @@ Sarah Is Already a member in the gym and her membership is about to end. She is 
 Mark has heard about the gym from a friend, but want's to know more before he decides to join.
 -A members page includes gallery of people using gym and equipment and read reviews from other users.
 -This members page can be accesed on right side on top of the page.
-Theese pictures and reviews will hopefully give a great impact and make Mark join the Gym.
+These pictures and reviews will hopefully give a great impact and make Mark join the Gym.
 
 ### FEATURES
 
@@ -96,14 +96,30 @@ I utilized bootstrap navbar components and CSS to construct this.
 
 
 ### Technologies Used
-The site was developed with HTML5 and CSS3 using Github/Gitpod website to code. 
-Bootstrap https://getbootstrap.com/ was used to create structure, navigation, forms and buttons. 
-fontawesome https://fontawesome.com/ was used to create the social media Icons.
+- The site was developed with HTML5 and CSS3 using Github/Gitpod website to code. 
+- Bootstrap v4.5.3 https://getbootstrap.com/ was used to create structure, navigation, forms and buttons. 
+- fontawesome https://fontawesome.com/ was used to create the social media Icons.
+- Google fonts are used throughout the project to import the Roboto fonts.
+- Google chromes built in developer tools are used to inspect page elements and find the issues with the site layout and test different CSS styles.
+- Balsamiq Wireframes was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+- Lighthouse, a Google Web Dev tool, was used for testing performance, accessability, best practices and SEO of the site in it's entirety.
+- Javascript/Query is used by Bootstrap for the modals and Navigation collapse icon.
 
 ### TESTING
-https://validator.w3.org/ was used to determine any issues in the code. 
+https://validator.w3.org/ was used to determine html5 and css3 if any issues in the code. 
 Throughout the developement I was checking my code to see if it performed as I was expecting. 
 I mostly used Google Chrome for this. I used the developer tools to check and analyse the view, functionality and user experience in different screen sizes and device simulations.
+### Design
+#### Color scheme
+##### Combination of color below is used in making this site.
+- #f6f6f6
+- #000 
+- rgb(41, 76, 153)
+- #ff7700 
+
+### Fonts
+- Roboto, fonts have been used through out the design of this site.
+
 
 ### Deployment
 For this project I have used GitHub pages to deploy the site. when I started to create the site I created a github repository and thoughout the development I have periodically added and commited changes. It is a straight forward process to deploy a GitHub repository to GitHub pages. I Logged in to the git hub website and selected the correct repository 'the-gym'. On the settings tab I scrolled down to the 'GitHub Pages' section. In this section I clicked on the 'source' button and selected 'master branch' as this is where the files I wanted to deploy have been commited to.
