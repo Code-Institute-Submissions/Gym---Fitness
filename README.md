@@ -1,5 +1,7 @@
 # milestone-project-1
 
+### [View Live Site Here](https://tashi-sk.github.io/Gym---Fitness)
+
 ![](assets/images/amiresponsive.png)
 
 ## THE GYM & Fitness
