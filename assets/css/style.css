@@ -18,9 +18,6 @@ body {
   margin-left: auto;
   border-radius: 0 0 5px 5px;
 }
-.menu a{
-    display:block;
-}
 .menu li a{
   color: #f6f6f6 !important;
   font-family: "Roboto", sans-serif;
@@ -73,7 +70,6 @@ body {
   transition: 0.5s ease-in-out;
   color: #000;
   border-radius: 25px;
-  border:0;
 }
 .join-btn:hover {
     color: #ff7700;
@@ -84,8 +80,7 @@ body {
   margin-bottom: 50px;
 }
 /*************************** Logo ************/
-.logo a h3 {
-    text-decoration: none !important;
+.logo a h3 {   
     color:#ff7700;
     animation: mymove 6s infinite;
 }
