@@ -2,6 +2,8 @@
 /* ------------------ all body css ****************/
 body {
   background-color: #000;
+  margin:0;
+  padding:0;
 }
 * a {
     text-decoration: none !important;
@@ -28,11 +30,10 @@ body {
 }
 .menu li a:hover {
   color: #ff7700 !important;
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
 }
 .active-nav {
-    border-bottom: 2px solid #ff7700;
-    transform: scale(1.1);
+    border-bottom: none;
 }
 /**************************** home page first title **************/
 .title-1 {
@@ -50,7 +51,7 @@ body {
 }
 .title-head {
   color: #ff7700;
-  font-size: 290%;
+  font-size: 130%;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   text-align: center;
@@ -70,10 +71,12 @@ body {
   transition: 0.5s ease-in-out;
   color: #000;
   border-radius: 25px;
+  font-size: 0.7em;
 }
 .join-btn:hover {
     color: #ff7700;
     background-color: #000;
+    border: none !important:
 }
 .start-trial {
   text-align: center;
@@ -127,11 +130,11 @@ body {
   border-radius: 25px;
 }
 /* ------------------- Trainer section -------*/
-.trainer-title{
+.trainer-title h2{
     margin-top:80px;
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
-    font-size: 270%;
+    font-size: 150%!important;
 }
 .trainer-pic1 {
     width:70%;
@@ -207,9 +210,9 @@ body {
     padding: 0 50px;
 }
 .price-title {
-    margin-top: 20%;
-    margin-bottom: 20%;
-    font-size: 290%;
+    margin-top: 25%;
+    margin-bottom: 35%;
+    font-size: 150%;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
@@ -333,14 +336,13 @@ body {
     background-size: cover;
     display:flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
  .members-title {
      padding: 0;
  }
 /*********************** gym pictures *************************/
-.gym {
-    margin-top: 100px;
-}
+
 
 .big-text {
     font-size: 140px;
@@ -358,32 +360,39 @@ body {
 }
 .player-1 {
     background: url(../images/gym-1.jpeg) no-repeat center center;
-    background-size: cover;
-    width: 498px;
-    height: 498px;
-    border: 13px solid #f6f6f6b9;
+    background-size: contain;
+    height: 198px;
+    margin-top: 40px;
 }
 .player-2 {
     background: url(../images/gym-2.jpeg) no-repeat center center;
-    background-size: cover;
-    width: 498px;
-    height: 498px;
-    border: 13px solid #df680096;
+    background-size: contain;
+    height: 198px;
+    margin-top: 20px;
+     
 }
 .player-3 {
-    background: url(../images/gym-3.jpeg) no-repeat right;
-    background-size: cover;
-    width: 498px;
-    height: 498px;
-    border: 13px solid #f6f6f6b9;
+    background: url(../images/gym-3.jpeg) no-repeat center center;
+    background-size: contain;
+    height: 198px;
+    margin-top: 20px;
 }
 /************************ Members Review *******************/
 .review-head{
     margin-top: 200px;
     color: #f6f6f6;
     font-family: "Roboto", sans-serif;
-    font-size: 290%;
-    letter-spacing: 2px;
+    font-size: 170%;
+    letter-spacing: 1px;
+}
+.member-review {
+    margin: 0 auto!important;
+}
+.member-review h2 {
+    font-size: 100%;
+}
+.member-review div p {
+    font-size: 80%;
 }
 .mem-pic {
     margin:100px auto 0 auto;
@@ -448,7 +457,6 @@ body {
 }
 /****************************** Contact page *****************/
 .title-4 {
-
     height: 40vh;
     background: url(../images/contact.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -485,96 +493,66 @@ footer{
     transform: translateY(3px) !important;
 }
 /************************ Media Queries index page******************/
-@media screen and (max-width:992px) {
+@media screen and (min-width:992px){
     .active-nav {
-        border: none;
-        transform: scale(1);
+    border-bottom: 2px solid #ff7700;
     }
-    .active-nav:hover {
-        transform: scale(1) !important;
-    }
-    .menu li a:hover {
-    transform: scale(1);
+}
+@media (min-width:600px) {
+    .title-head {
+        font-size: 290%;
     }
     .join-btn {
-        font-size: 0.7em;
+        font-size: 80%;
     }
+    .trainer-title h2{
+        font-size: 290% !important;
+    }  
     .price-title {
-       margin-bottom: 30%;
-       font-size: 180%;
-    }
+        font-size: 290%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }  
+}
+@media screen and (min-width:768px) {
     .yearly,
     .quarterly,
     .monthly
     {
         margin-right: 10px;
     }
-    .best-value {
-        left: 180px !important;
-    }
-}
-@media screen and (max-width:768px){
-    .active-nav {
-        border: none;
-        transform: scale(1);
-    }
-    .active-nav:hover {
-        transform: scale(1) !important;
-    }
-    .menu li a:hover {
-    transform: scale(1);
-    }
-    .title-head {
-        font-size: 130% !important;
-    }
-    .join-btn {
-        font-size: 80%;
-    }
-    .trainer-title {
-        font-size: 200% !important;
-    }
+}  
+
+@media screen and (min-width:320px){
     .best-value {
         left: 55% !important;
     }
-     .price-box {
+    .price-box {
         margin-bottom: 50px;
     }
     .about-text {
         padding: 0 25px;
-    } 
+    }
+     
 }
-@media screen and (max-width:1280px) {
-     .best-value {
-        left: 55% !important;
-    }
-}
-/********************** Media Queries Members Page ******************/
-@media screen and (min-width:320px) {
-    .player-1 {
-        border: none;
-        width: 90%;
-        height: 300px;
-        margin:0;
-    }
-    .player-2 {
-        border: none;
-        width: 90%;
-        height: 300px;
-        margin:0;
-    }
-    .player-3 {
-        border: none;
-        width: 90%;
-        height: 300px;
-        margin:0;
-    }
-    .trainer-title h2{
+/* ---------------------------Media Queries Members Page --------------------- */
+@media screen and (min-width:600px) {
+ .review-head {
+      font-size: 270%;
+  }
+   .member-review h2 {
+       font-size: 150%;
+   }
+   .member-review div p {
     font-size: 100%;
 }
-    .review-head {
-       padding-right: 0;
-    }
-    div.member-review {
-       margin: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .player-1,
+    .player-2,
+    .player-3 {
+        height: 498px;
+        margin: 0;
     }
 }
