@@ -152,6 +152,8 @@ iPad Pro 2, iPhone se, Samsung Note 9, Huawei P30 pro and Laptop.
 All aspects of the website mentioned above were manually tested on the following browsers:
 Chrome, Safari, Mozilla Firefox
 
+#### Code Testing:
+
 https://validator.w3.org/ was used to determine html5 and css3 if any issues in the code. 
 Throughout the developement I was checking my code to see if it performed as I was expecting. 
 I mostly used Google Chrome for this. I used the developer tools to check and analyse the view, functionality and user experience in different screen sizes and device simulations.
